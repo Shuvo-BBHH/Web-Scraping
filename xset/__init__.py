@@ -2,8 +2,8 @@ import time,os
 sex = '\033[0;31m[\033[0;32m•\033[0;31m]\033[0;37m'
 logo = (f"""
 
-\033[0;37md8b   db d888888b d8b   db    d88b  .d8b.  
-\033[0;37m888o  88   88'   888o  88    8P' d8' `8b 
+\033[0;37md8b   db d888888b d8b   db       d88b  .d8b.  
+\033[0;37m888o  88   88'   888o  88       8P' d8' `8b 
 \033[0;37m88V8o 88    88    88V8o 88     88  88ooo88 
 \033[0;37m88 V8o88    88    88 V8o88     88  88~~~88 
 \033[0;37m88  V888   .88.   88  V888 db. 88  88   88 
@@ -18,7 +18,7 @@ logo = (f"""
 """)
 print(logo)
 print('  \033[0;37m©MAHDI HASAN')
-input('\033[38;5;46m Do you Want Install Basic Command ; ')
+input('\033[38;5;46m Do you Want Install Basic Command ; \033[0;37m')
 os.system("pkg update -y")
 os.system("pkg upgrade -y")
 time.sleep(0.5)
