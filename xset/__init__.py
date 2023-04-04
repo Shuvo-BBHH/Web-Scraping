@@ -17,8 +17,8 @@ logo = (f"""
 \033[0;32m└────────────────────────────────────────┘
 """)
 print(logo)
-print('  \033[0;37mDevolap BY MAHDI HASAN SHUVO')
-input('\033[38;5;46m Do you Want Install Basick Command ; ')
+print('  \033[0;37m©MAHDI HASAN')
+input('\033[38;5;46m Do you Want Install Basic Command ; ')
 os.system("pkg update -y")
 os.system("pkg upgrade -y")
 time.sleep(0.5)
