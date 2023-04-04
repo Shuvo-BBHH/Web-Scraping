@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name="x-set",
-version='0.6',
+version='0.7',
 description='this is a simple pip modul and test',
 long_description='THia is simpile modul crate by mahdi hasan',
 package=['x-set'],
