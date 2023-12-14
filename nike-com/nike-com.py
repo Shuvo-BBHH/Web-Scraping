@@ -11,6 +11,7 @@ __WHATSAPP___=+8801616406924
 # GET ALL shoes DATA like 'Product Name', 'Product Price', 'Product Type', 'Color Description', 'Reviews Count', 'Product URL' 
 # Save as all data  in CSV file 
 #-------------------------------------------------------------------#
+
 import os
 try:
     import requests,re,csv
